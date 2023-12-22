@@ -111,7 +111,7 @@ let info = prompt("Какую информацию хотите узнать о 
 alert(user[info]); */
 
 let userName = prompt(String('Как Вас зовут?'));
-alert('Привет, ' + userName + '!');
+alert(`Привет,  ${userName} !`);
 
 
 
