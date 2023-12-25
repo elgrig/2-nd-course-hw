@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top {
+        height: 735px;
+        text-align: center;
+        background-image: url(./img/topbackground-mobile.jpg);
+        &__heading {
+            text-align: center;
+            font-size: 32px;
+            width: 343px;
+            padding-top: 238px;
+        }
+        &__text {
+            font-size: 14px;
+            width: 343px;
+            margin-bottom: 32px;
+        }
+        &__text-bold {
+            font-size: 14px;
+        }
+    }
+    .nav__item {
+        width: 343px;
+    }
+}
