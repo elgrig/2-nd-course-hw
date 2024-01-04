@@ -27,22 +27,21 @@ for (let workman in obj) {
 
 
 
-/* let n = 1000;
+let n = 1000;
 let num = 0;
-while ([n / 2] > 50) {
-    n = [n / 2];
-    n / 2;
+while (n >= 50) {
+    n /= 2;
     num++;    
 }
 console.log(n);
-console.log(num); */
+console.log(num); 
 
-let numberOfFirstFriday = 7;
+/* let numberOfFirstFriday = 7;
 for (let dayOfMonthNumber = 1; dayOfMonthNumber <= 31; dayOfMonthNumber++) { 
     if (dayOfMonthNumber === numberOfFirstFriday) {
-    console.log(`Сегодня пятница, ${dayOfMonthNumber} -е число. Необходимо подготовить отчет.`);
+    console.log(`Сегодня пятница, ${dayOfMonthNumber}-е число. Необходимо подготовить отчет.`);
     numberOfFirstFriday += 7;
     }   
-}
+} */
 
 
