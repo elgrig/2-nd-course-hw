@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 768px) {    
     .center {
         padding-left: 16px;
         padding-right: 16px;
@@ -7,22 +7,43 @@
         height: 735px;
         text-align: center;
         background-image: url(./img/topbackground-mobile.jpg);
-        &__heading {
-            text-align: center;
-            font-size: 32px;
-            width: 343px;
-            padding-top: 238px;
-        }
-        &__text {
-            font-size: 14px;
-            width: 343px;
-            margin-bottom: 32px;
-        }
-        &__text-bold {
-            font-size: 14px;
-        }
     }
+    .heading {
+        font-size: 32px;
+    }    
+    .top__heading {
+        text-align: center;        
+        width: 343px;
+        padding-top: 238px;
+    }
+    .text {
+        font-size: 14px;
+        width: 343px;
+    }
+    .top__text {        
+        margin-bottom: 32px;
+    }
+    .text-bold {
+            font-size: 14px;
+        }    
     .nav__item {
         width: 343px;
+    }
+    .section1 {
+        flex-direction: column;
+        gap: 64px;
+        padding-bottom: 85px;
+    }
+    .section1__info {
+        align-items: center;
+        padding-top: 51px;
+        padding-bottom: 0;
+    }
+    .section1__text {
+        text-align: center;
+    }
+    .section__svg {
+        width: 344px;
+        height: 236px;
     }
 }
