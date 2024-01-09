@@ -10,16 +10,26 @@ console.log(min (5, 2));
 console.log(min (4, 8));
 console.log(min (6, 6)); */
 
-
-/* 2. function showEvenOdd () {
-    let n = prompt('Введите число');
-        if (n % 2 == 0) {
-            console.log('Число четное')
-        } else {
-            console.log('Число нечетное')
-        }
+/* function min(a, b) {
+    return Math.min(a, b)
 }
-showEvenOdd (); */
+
+console.log(min(6, 3)); */
+
+
+function showEvenOdd () {
+    let n = Number(prompt('Введите число'));
+        if (n % 2 == 0) {
+            console.log('Число четное');
+        } else if (isNaN(n)) {
+            console.log ('error');            
+        }
+        else {
+            console.log('Число нечетное');
+        }
+    }
+
+showEvenOdd (); 
 
 /* 3.1 function calcSquared (n) {
    let result = n**2;
@@ -70,7 +80,7 @@ console.log(mult(5,9)); */
 }
 getCubed(); */
 
-function getArea () {
+/* 7.0 function getArea () {
     return 3.14 * (this.radius * this.radius);   
 }
 
@@ -94,4 +104,5 @@ let circle2 = {
 console.log(circle1.area());
 console.log(circle1.perimeter());
 console.log(circle2.area());
-console.log(circle2.perimeter());
+console.log(circle2.perimeter()); */
+
