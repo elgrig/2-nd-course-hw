@@ -1,7 +1,7 @@
 /* 1. let arr = [1, 5, 4, 10, 0, 3];
-for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
-    if (arr[i] == 10) break;    
+for (let i = 0; i < arr.length; i++) {    
+    if (arr[i] == 10) break; 
+    console.log(arr[i]);   
 } */
 
 
@@ -23,16 +23,14 @@ console.log(arr.indexOf(4)); */
 
 console.log(arr.join(' ')); */
 
-
-/* 4. let arr = [];
+/* let arr = [];
 for (let i = 0; i < 3; i++) {
-    arr[i] = [];     
-    console.log(arr[i]);
-    for (let j = 0; j < 3; j++) {     
+    arr[i] = []; 
+    for (let j = 0; j < 3; j++) {
         arr[i][j] = 1;
-        console.log(arr[i][j]);
-    };    
-} */
+    }
+} 
+console.log(arr); */
 
 
 /* 5. let arr = [1, 1, 1];
@@ -88,12 +86,12 @@ for (let i = 0; i < arr.length - 1; i++) {
 getSquare([3, 4, 5]); */
 
 
-/* 12. function getWordLength(array) {
+function getWordLength(array) {
     array.forEach((el) => {
         console.log(el.length);
     });
 }
-getWordLength(['слово', '', 'слог', 'длинное предложение', 'буква']); */
+getWordLength(['слово', '', 'слог', 'длинное предложение', 'буква']); 
 
 
 /* 13. function filterPositive(array) {
@@ -115,14 +113,14 @@ console.log(arr);
 console.log(evenArr); */
 
 
-let arr = [];
+/* 15. let arr = [];
 for (i = 0; i < 6; i++) {    
     arr[i] = Math.floor(Math.random() * (6 - 1 + 1)) + 1;    
 }
 console.log(arr);
 const arrSum = arr.reduce((a, b) => a + b);
 const arithMean = arrSum / arr.length;
-console.log(arithMean); 
+console.log(arithMean); */
 
 
 
