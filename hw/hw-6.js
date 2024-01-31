@@ -1,7 +1,7 @@
-/* 1. let arr = [1, 5, 4, 10, 0, 3];
-for (let i = 0; i < arr.length; i++) {    
-    if (arr[i] == 10) break; 
-    console.log(arr[i]);   
+/* let arr = [1, 5, 4, 10, 0, 3];
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);    
+    if (arr[i] == 10) break;        
 } */
 
 
@@ -23,7 +23,7 @@ console.log(arr.indexOf(4)); */
 
 console.log(arr.join(' ')); */
 
-/* let arr = [];
+/* 4. let arr = [];
 for (let i = 0; i < 3; i++) {
     arr[i] = []; 
     for (let j = 0; j < 3; j++) {
@@ -86,12 +86,12 @@ for (let i = 0; i < arr.length - 1; i++) {
 getSquare([3, 4, 5]); */
 
 
-function getWordLength(array) {
+/* 12. function getWordLength(array) {
     array.forEach((el) => {
         console.log(el.length);
     });
 }
-getWordLength(['слово', '', 'слог', 'длинное предложение', 'буква']); 
+getWordLength(['слово', '', 'слог', 'длинное предложение', 'буква']); */
 
 
 /* 13. function filterPositive(array) {

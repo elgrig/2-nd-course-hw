@@ -129,7 +129,7 @@ body {
     align-items: center;
     flex-wrap: wrap;   
 }
-.section1__info {
+.section__info {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -147,12 +147,19 @@ body {
 }
 .section1__text {
     width: 584px;
-    color: $colorText;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 32px;    
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+
+.section2__text {  
+    width: 588px;
+    font-weight: 400;
 }
 
 @import 'mobile';
